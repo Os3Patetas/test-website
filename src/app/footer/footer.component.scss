@@ -1,0 +1,110 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 130px;
+  user-select: none;
+}
+
+.titleFoot {
+  font-size: 1em;
+  margin: 0 120px 24px 0;
+  line-height: 21px;
+}
+
+.subTittleFoot {
+  font-size: 0.875em;
+  margin-bottom: 12px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+.subTittleFoot:hover {
+  color: white;
+}
+
+.iconRow {
+  display: flex;
+  flex-direction: row;
+  min-height: 130px;
+  cursor: pointer;
+}
+
+.iconFooter {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  height: 36px;
+  width: 36px;
+  margin-right: 8px;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.iconFooter:hover {
+  background-color: #40eded;
+}
+
+.footerRow {
+  border-top: 1px solid rgba(225, 228, 232, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+}
+.rowInfo {
+  margin-right: 16px;
+  font-size: 0.875em;
+  color: hsla(0, 0%, 100%, 0.8);
+  cursor: pointer;
+}
+
+.dot {
+  color: #24292e;
+  cursor: default;
+}
+
+.container-sized {
+  padding: 48px 130px 0;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .container-sized {
+    padding: 48px 20px 0px 20px;
+    text-align: center !important;
+  }
+  .iconRow {
+    justify-content: center;
+    min-height: 100px;
+    margin-top: 20px;
+  }
+  .titleFoot {
+    font-size: 1em;
+    margin: 0 40px 24px 40px;
+    line-height: 21px;
+  }
+  .col-resp {
+    width: 100%;
+  }
+}

@@ -1,0 +1,107 @@
+<section>
+  <section id="footer">
+    <div style="background: #000; color: white">
+      <div class="container container-sized" id="footerContainer">
+        <div class="row">
+          <div class="col-md-5" style="display: flex">
+            <div class="col-md-6 col-resp">
+              <div class="titleFoot">Products</div>
+              <div
+                [routerLink]="['/games']"
+                class="subTittleFoot"
+                id="gamesFooter"
+              >
+                Games
+              </div>
+              <div
+                [routerLink]="['/games']"
+                class="subTittleFoot"
+                id="orbitFooter"
+                style="color: #40eded"
+              >
+                Orb It
+              </div>
+            </div>
+            <div class="col-md-6 col-resp">
+              <div class="titleFoot" id="companyFooter">Company</div>
+              <!-- <div [routerLink]="['/']" class="subTittleFoot">Carrers</div> -->
+              <div
+                [routerLink]="['/devs']"
+                class="subTittleFoot"
+                id="teamFooter"
+              >
+                Team
+              </div>
+              <div
+                [routerLink]="['/aboutus']"
+                class="subTittleFoot"
+                id="aboutUsFooter"
+              >
+                About Us
+              </div>
+              <div class="subTittleFoot">
+                <a
+                  style="
+                    cursor: pointer;
+                    text-decoration: none;
+                    font-weight: bolder;
+                    font-size: 1.5em;
+                  "
+                  (click)="mudaSize()"
+                  id="biggerFontFooter"
+                  >BIGGER FONT</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 offset-md-4 iconRow">
+            <a href="https://twitter.com/IcyPeakStudio" target="_blank"
+              ><img
+                class="iconFooter"
+                id="twitterFooter"
+                src="assets/twitter.png"
+            /></a>
+            <a href="https://www.apple.com/app-store/" target="_blank"
+              ><img
+                class="iconFooter"
+                id="appleStoreFooter"
+                src="assets/apple.png"
+            /></a>
+            <a href="https://play.google.com/store" target="_blank"
+              ><img
+                class="iconFooter"
+                id="googlePlayFooter"
+                src="assets/google-play.png"
+            /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="footerRow">
+            <div class="rowInfo" style="color: white; cursor: default">
+              ©2021 Icy Peak
+            </div>
+            <span class="rowInfo dot">&#8226;</span>
+            <a
+              class="rowInfo"
+              id="termsFooter"
+              href="https://policies.google.com/terms"
+              target="_blank"
+            >
+              Terms
+            </a>
+
+            <span class="rowInfo dot">&#8226;</span>
+            <a
+              class="rowInfo"
+              id="privacyFooter"
+              href="https://policies.google.com/privacy"
+              target="_blank"
+            >
+              Privacy
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

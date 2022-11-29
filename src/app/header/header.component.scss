@@ -1,0 +1,52 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 20px 130px;
+}
+
+.headerStyle {
+  display: flex;
+  user-select: none;
+}
+.borderBottom {
+  border-bottom: 1px solid #e1e4e8;
+  background-color: white;
+}
+
+.navPages {
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+.img-style {
+  width: 14%;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+  .img-style {
+    width: 20%;
+    cursor: pointer;
+    margin: 20px 0px 20px 0px;
+  }
+  .headerStyle {
+    display: flex;
+    text-align: center;
+  }
+  .nav-style {
+    margin-bottom: 20px;
+  }
+}

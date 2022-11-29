@@ -1,0 +1,39 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 130px;
+  user-select: none;
+}
+
+.subtitleDescription {
+  font-size: 1em;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: #65696c;
+}
+
+.gamesTitle {
+  font-size: 2.25em;
+  line-height: 48px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.gamesSub {
+  font-size: 1em;
+  line-height: 24px;
+  margin-bottom: 56px;
+  color: #65696c;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
+}

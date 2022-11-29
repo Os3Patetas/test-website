@@ -1,0 +1,172 @@
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
+
+<div class="example" style="margin-top: 80px">
+  <img style="margin-bottom: 110px" src="assets/whiteMountain.jpg" />
+  <div class="overlay" style="position: absolute">
+    <h1 class="jt --debug">
+      <span class="jt__row">
+        <span class="jt__text"> Gaming Beyond Heights </span>
+      </span>
+      <span class="jt__row jt__row--sibling" aria-hidden="true">
+        <span class="jt__text" id="titleHome">Gaming Beyond Heights </span>
+      </span>
+    </h1>
+  </div>
+</div>
+
+<section>
+  <!-- Primeira Section -->
+  <section>
+    <div class="container first-sec">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="gameStudio">GAMES</div>
+          <div class="funGames" id="artGamesHome">
+            The Art Of <br />
+            Creating Games
+          </div>
+          <div class="subtitleDescription">
+            Game Development is the art of delevolping what we have on our minds
+            and realizing our development dreams, makins fun games that we would
+            like to play!
+          </div>
+
+          <div>
+            <button [routerLink]="['/games']" class="btn btn-lg btnCard">
+              Our Games
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="col-md-6"
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            align-self: center;
+          "
+        >
+          <img style="width: inherit" src="assets/gameMenu.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Segunda Section -->
+  <section style="background-color: #e2fcff">
+    <div
+      style="
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        margin-top: 30px;
+      "
+      class="container"
+    >
+      <div class="row">
+        <div
+          class="col-md-6"
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            align-self: center;
+          "
+        >
+          <img style="width: inherit" src="assets/modeSelect.png" />
+        </div>
+        <div class="col-md-6">
+          <div class="gameStudio">DEVS</div>
+          <div class="funGames" id="passionateHome">Passionate Team</div>
+          <div class="subtitleDescription">
+            Our passion is build games, as we grew up playing them, we just
+            decides to create them ourselvs, having a fun and work balance!
+          </div>
+          <div style="display: none">
+            Icons made by
+            <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon"
+              >www.flaticon.com</a
+            >
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/boss.png" />
+            Caio
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/working.png" />
+            Guilherme
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/working.png" />
+            Fernando
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/user.png" />
+            Luan
+          </div>
+          <div>
+            <button [routerLink]="['/devs']" class="btn btnCard">
+              The Team
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Terceira Section -->
+  <section>
+    <div
+      style="padding-bottom: 100px; padding-top: 30px; margin-top: 30px"
+      class="container"
+    >
+      <div class="row">
+        <div class="col-md-6">
+          <div class="gameStudio">ABOUT US</div>
+          <div class="funGames" id="funHome">We Build 4Fun Games</div>
+          <div class="subtitleDescription">
+            We build awesome games for our players. Take a break and discover a
+            lifetime of endless games!
+          </div>
+          <div style="display: none">
+            Icons made by
+            <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon"
+              >www.flaticon.com</a
+            >
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/rocket.png" />
+            1 Game Launched!
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/controler.png" />
+            2 downloads
+          </div>
+          <div class="gamesLaunched">
+            <img class="iconsStyle" src="assets/people.png" />
+            3 monthly active users
+          </div>
+          <div>
+            <button [routerLink]="['/aboutus']" class="btn btnCard">
+              About Us
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="col-md-6"
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            align-self: center;
+          "
+        >
+          <img style="width: inherit" src="assets/gameplayAsset.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

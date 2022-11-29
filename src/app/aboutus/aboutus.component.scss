@@ -1,0 +1,71 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 130px;
+  user-select: none;
+}
+
+.rowDescription {
+  text-align: center;
+}
+
+.titleDescription {
+  font-size: 3.5em;
+  font-weight: 500;
+  color: #3d84a8;
+}
+
+.subtitleDescription {
+  font-size: 1.2em;
+  line-height: 24px;
+  color: #65696c;
+  text-align: center;
+}
+
+.img1Style {
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.powerIndividualTitle {
+  font-size: 2em;
+  font-weight: 500;
+  color: #3d84a8;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.powerIndividualsubTitle {
+  font-size: 1.2em;
+  line-height: 24px;
+  color: #65696c;
+  margin-bottom: 10px;
+  padding-left: 125px;
+}
+
+.helpDescription {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #3d84a8;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.helpSubDescription {
+  font-size: 1em;
+  line-height: 24px;
+  color: #65696c;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
+}
